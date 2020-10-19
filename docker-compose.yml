@@ -1,0 +1,6 @@
+version: '3'
+services:
+ web:
+   image: vaday/brokersensor
+   ports:
+    - 1880:1880
